@@ -1,9 +1,12 @@
 {
   "name": "terraform",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "index.js",
   "repository": "https://github.com/jwonp/terraform.git",
   "license": "MIT",
+  "scripts": {
+    "build": "npx tsc"
+  },
   "dependencies": {},
   "devDependencies": {
     "@types/aws-lambda": "^8.10.142",
